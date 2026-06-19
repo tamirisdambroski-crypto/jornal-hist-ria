@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Histórico: O Paraná que Você não Conhece</title>
+    <style>
+        /* Estilo Base: 60% Branco/Bege, 30% Azul Escuro, 10% Verde/Destaque */
+        body { font-family: 'Georgia', serif; background-color: #fcfaf2; color: #333; margin: 0; padding: 0; }
+        .menu { background-color: #2c3e50; display: flex; justify-content: center; flex-wrap: wrap; padding: 10px 0; position: sticky; top: 0; z-index: 100; }
+        .menu a { color: white; text-decoration: none; padding: 10px 15px; margin: 5px; font-weight: bold; border-radius: 4px; transition: 0.3s; }
+        .menu a:hover, .menu a.active { background-color: #16a085; }
+        
+        .container { max-width: 900px; margin: 30px auto; padding: 40px; background: white; box-shadow: 0px 10px 30px rgba(0,0,0,0.05); border-radius: 8px; }
+        
+        h1 { text-align: center; color: #2c3e50; border-bottom: 3px double #2c3e50; padding-bottom: 20px; font-size: 2.8em; line-height: 1.2; margin-bottom: 30px; }
+        h2 { color: #16a085; margin-top: 0; border-bottom: 1px solid #eee; padding-bottom: 8px; font-size: 1.6em; }
+        
+        p { line-height: 1.7; text-align: justify; margin-bottom: 15px; }
+        
+        /* Box do Editorial escrito pelo aluno */
+        .editorial-box { background-color: #fdfefe; border: 1px solid #e2e8f0; border-left: 5px solid #16a085; padding: 25px; margin: 30px 0; border-radius: 4px; }
+        .editorial-box p { font-style: italic; color: #4a5568; }
+        .autor-editorial { text-align: right; font-weight: bold; margin-top: 15px; color: #2c3e50; font-style: normal !important; }
+
+        /* Box da Imagem de Destaque */
+        .destaque-box { margin-top: 40px; text-align: center; }
+        .destaque-box img { width: 100%; height: auto; max-height: 450px; object-fit: cover; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; }
+        .legenda { font-size: 0.9em; color: #718096; margin-top: 10px; font-style: italic; }
+        
+        footer { text-align: center; padding: 30px; font-size: 0.85em; color: #777; border-top: 1px solid #eee; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <nav class="menu">
+        <a href="index.html" class="active">Capa</a>
+        <a href="pagina2.html">Pág 2: Povos Africanos</a>
+        <a href="pagina3.html">Pág 3: Imigração</a>
+        <a href="pagina4.html">Pág 4: Migrantes Brasileiros</a>
+        <a href="pagina5.html">Pág 5: Guerras</a>
+        <a href="pagina6.html">Pág 6: Ciclos Econômicos</a>
+    </nav>
+
+    <div class="container">
+        <h1>O Paraná que Você não Conhece:<br>Uma Viagem pela Nossa História</h1>
+        
+        <div class="editorial-box">
+            <h2>Editorial</h2>
+            <p>Seja bem-vindo ao nosso jornal histórico. Este espaço foi criado com o objetivo de resgatar e valorizar as múltiplas faces do passado paranaense. Muitas vezes, a história oficial deixa de lado a importância de povos e conflitos que moldaram nossa terra. Ao longo destas páginas, convidamos você a descobrir um Paraná rico em diversidade cultural, marcado por ciclos econômicos potentes e transformado por episódios marcantes de resiliência e luta. Conhecer a nossa história é o primeiro passo para compreender quem somos hoje.</p>
+            <p class="autor-editorial">— Escrito por um Aluno</p>
+        </div>
+
+        <div class="destaque-box">
+            <h2>Destaque da Edição</h2>
+            <img src="https://images.unsplash.com/photo-1597843797221-3929009df3bd?q=80&w=1000" alt="Paisagem de Araucárias no Paraná">
+            <p class="legenda">As imponentes Araucárias, o cultivo tradicional da erva-mate e a rica fusão de povos indígenas, africanos, migrantes e imigrantes que construíram a identidade do Paraná.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Projeto Escolar - "O Paraná que Você não Conhece" &copy; 2026</p>
+        <p>Desenvolvido para publicação no GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
